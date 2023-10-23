@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+.card .wrapper {
+    border: 2px solid black;
+    display: flex;
+}
+.card .wrapper .images {
+    width: 50%;
+    margin-left: 20px;
+}
+.card .wrapper .images img {
+    width: 15%;
+}
+.card .wrapper span {
+    /* border: 2px solid black; */
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.card_title {
+    margin-top: 10px;
+}
+.card_text {
+    margin-top: 10px;
+    font-weight: 400;
+    color: gray;
+}
+.card .label {
+    margin-top: 10px;
+    color: black;
+}
+.inputs {
+border: 2px solid black;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+height: 40px;
+align-items: center;
+margin-top: 10px;
+}
+.inputs input {
+    width: 20px;
+    height:20px;
+}
+.input_1 {
+    accent-color: purple;
+}
+.input_2 {
+    accent-color: red;
+}
+.input_3 {
+    accent-color: green;
+}
+.input_4 {
+    accent-color: yellow;
+}
+.btns {
+border: 2px solid black;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+height: 40px;
+align-items: center;
+margin-top: 10px;
+}
+.btns button {
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.btns button:focus {
+    border: 2px gray;
+}
